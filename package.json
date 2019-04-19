@@ -1,8 +1,8 @@
 {
   "name": "mapuche",
-  "version": "1.0.0",
-  "description": "My rad Nuxt.js project",
-  "author": "equaliser0",
+  "version": "0.0.1",
+  "description": "For instance this is a landingpage for the mapuche community/organization",
+  "author": "genratio",
   "private": true,
   "scripts": {
     "dev": "nuxt",

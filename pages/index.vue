@@ -21,14 +21,12 @@ export default {
 
 <style>
 
-
+/*  Color Palette Notes
 #677517
 #528BCC
 #ADC23A
 #8F261D
 #75251D
-
-
 
 #347529
 #183613
@@ -39,13 +37,7 @@ export default {
 #84CC3D
 
 #8D6FC9
-
-
-
-
-
-
-
+*/
 
 .container {
   width: 100%;
