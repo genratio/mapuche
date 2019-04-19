@@ -51,8 +51,11 @@ export default {
  /* TODO container wrapper */
 }
 
-
 .links {
   padding-top: 15px;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
 }
 </style>

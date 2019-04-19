@@ -26,10 +26,9 @@
 
 .cover h1 {
   color: #183613;
-  padding-top: 3em;
+  padding-top: 4em;
   padding-left: 10em;
   font-size: 50px;
-
 }
 
 </style>
