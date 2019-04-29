@@ -40,7 +40,8 @@ export default {
 */
 
 .container {
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -53,9 +54,5 @@ export default {
 
 .links {
   padding-top: 15px;
-}
-
-body {
-  font-family: "Verdana", sans-serif;
 }
 </style>

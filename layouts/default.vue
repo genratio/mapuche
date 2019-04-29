@@ -5,8 +5,15 @@
 </template>
 
 <style>
+h1 { font-family: Verdana, Geneva, sans-serif; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 600; line-height: 23px; }
+h3 { font-family: Verdana, Geneva, sans-serif; font-size: 22px; font-style: normal; font-variant: normal; font-weight: 600; line-height: 23px; }
+p { font-family: Verdana, Geneva, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+blockquote { font-family: Verdana, Geneva, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+pre { font-family: Verdana, Geneva, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+
+
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: 'Verdana', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
