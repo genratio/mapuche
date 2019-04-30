@@ -4,17 +4,12 @@
   "description": "For instance this is a landingpage for the mapuche community/organization",
   "author": "genratio",
   "private": true,
-  "config": {
-    "nuxt": {
-      "host": "mapuche.org",
-      "port": 80
-    }
-  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
