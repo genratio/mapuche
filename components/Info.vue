@@ -40,25 +40,7 @@
       <p style="margin-top:1em;">
         Einen Überblick über den Mapuche Konflikt findet ihr <a @click="openWebsiteNewTab('https://berkleycenter.georgetown.edu/posts/the-mapuche-conflict')">HIER</a>
       </p>
-
-      <p style="margin-top:2em;"><b>
-        Partyfacts: 2 Floors // Cocktail Bar // Empanadas
-      </b></p>
-
-      <img src="~/assets/soli-djanes.png" class="footerPic">
-
-
-      <section class="info">
-        <div class="infoBox">
-
-        </div>
-        <div class="infoBox">
-
-        </div>
-        <div class="infoBox">
-
-        </div>
-      </section>
+      
     </section>
 
   </section>

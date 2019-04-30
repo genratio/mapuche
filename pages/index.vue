@@ -3,6 +3,7 @@
     <section class="container-wrapper">
       <Cover/>
       <Info/>
+      <Footer/>
     </section>
   </section>
 </template>
@@ -10,11 +11,13 @@
 <script>
 import Cover from '../components/Cover'
 import Info from '../components/Info'
+import Footer from '../components/Footer'
 
 export default {
   components: {
     Cover,
-    Info
+    Info,
+    Footer
   }
 }
 </script>

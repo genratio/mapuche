@@ -2,12 +2,16 @@
   <section>
     <div class="wrapperCover">
 
-      <div>
-        <img class="solipartyMapuche" src="~/assets/soliparty-logo1.png">
-      </div>
+
 
       <div>
-        <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Mapuche_Webisite_Header_1080p.png`) + ')' }"></div>
+        <img class="djListe" src="~/assets/DJ_Liste_st.png">
+      </div>
+
+
+
+      <div>
+        <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Soli_background.png`) + ')' }"></div>
       </div>
 
     </div>
@@ -20,17 +24,16 @@ export default {
 
 }
 
-
 </script>
 
 <style>
 
-.solipartyMapuche {
+.djListe {
   position: absolute;
   left: 50%;
-  margin-left: -17.5em;
+  margin-left: -22.5em;
   margin-top: 2em;
-  width: 35em;
+  width: 45em;
 }
 
 .cover {
@@ -67,12 +70,12 @@ export default {
     background-size: cover;
     background-position: center top;
   }
-  .solipartyMapuche {
+  .djListe {
     position: absolute;
     left: 50%;
-    margin-left: -12.5em;
-    margin-top: 2em;
-    width: 25em;
+    margin-left: -35%;
+    margin-top: 4em;
+    width: 70%;
   }
 }
 
