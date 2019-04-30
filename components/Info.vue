@@ -40,7 +40,7 @@
       <p style="margin-top:1em;">
         Einen Überblick über den Mapuche Konflikt findet ihr <a @click="openWebsiteNewTab('https://berkleycenter.georgetown.edu/posts/the-mapuche-conflict')">HIER</a>
       </p>
-      
+
     </section>
 
   </section>
@@ -178,7 +178,7 @@ p {
     margin-right: auto;
     margin-top: 3em;
     margin-bottom: 1em;
-    width: 25em;
+    width: 20em;
     border-radius: 50%;
   }
   .footerPic {
