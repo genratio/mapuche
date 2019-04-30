@@ -1,13 +1,13 @@
 <template>
   <section>
-    <div>
+    <div class="wrapperCover">
 
       <div>
         <img class="solipartyMapuche" src="~/assets/soliparty-logo1.png">
       </div>
 
       <div>
-        <img class="cover" src="~/assets/Mapuche_Webisite_Header_1080p.png">
+        <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Mapuche_Webisite_Header_1080p.png`) + ')' }"></div>
       </div>
 
     </div>
@@ -37,6 +37,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center top;
 }
 
 .cover h1 {
@@ -45,6 +46,31 @@
   padding-left: 7.5em;
   font-size: 50px;
   font-weight: 500;
+}
+@media screen and (min-width: 1600px) {
+
+}
+@media screen and (max-width: 880px) {
+  .wrapperCover {
+    max-width: 100%;
+    min-height: 100vh;
+  }
+  .cover {
+    max-width: 100%;
+    min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center top;
+  }
+  .solipartyMapuche {
+    position: absolute;
+    left: 50%;
+    margin-left: -12.5em;
+    margin-top: 2em;
+    width: 25em;
+  }
 }
 
 </style>

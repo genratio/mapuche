@@ -1,62 +1,64 @@
 <template>
   <section class="pageWrapper">
-    <img src="~/assets/soliankündigung.png" class="headerPic">
-    <h2>Für <b>Juana Calfunao Paillalef</b> - Sie ist Lonco (Oberhaupt) einer Mapuche Community in Südchile.</h2>
-    <h2 class="subHeadingInfobox">In diesem Video erzählt sie ihre Geschichte:</h2>
+    <section class="pageInnerWrapper">
+      <img src="~/assets/soliankündigung.png" class="headerPic">
+      <h2>Für <b>Juana Calfunao Paillalef</b> - Sie ist Lonco (Oberhaupt) einer Mapuche Community in Südchile.</h2>
+      <h2 class="subHeadingInfobox">In diesem Video erzählt sie ihre Geschichte:</h2>
 
-    <!--<p style="margin-top:1em;">
-      Hier bekommt ihr einen Eindruck um wen es geht:
-    </p>-->
+      <!--<p style="margin-top:1em;">
+        Hier bekommt ihr einen Eindruck um wen es geht:
+      </p>-->
 
-    <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/EGMSoZ6yvv4?&showinfo=0&rel=0" width="100%" height="auto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
-    </div>
-
-    <div id="containerProfile">
-      <img src="~/assets/JuanaMountainCubeRight.png" class="profile">
-    </div>
-
-    <p style="margin-top:3em;">
-      <b>Juana Calfunao Paillalef</b>, Stammesführerin der Mapuche, verklagt den chilenischen Staat vor dem lateinamerikanischen Gerichtshof für die Anerkennung der Menschenrechtsverletzungen gegenüber der Mapuche. Sie und ihre Familie haben wegen ihrer Rolle als Aktivistin und Lonco gewaltige Repressionen vom chilenischen Staat erfahren. Sie wurde ohne Prozess inhaftiert, gefoltert, ihr Haus wurde zwei Mal niedergebrannt und vieles mehr. Sie konnte an den Prozesstagen im Februar nicht anwesend sein, da sie nicht die Mittel für die Reisekosten aufbringen konnte. Daraufhin wurde ihr die Immunität temporär abgesprochen und somit befindet sie sich derzeit in großer Gefahr!
-    </p>
-
-    <div class="galleryContainer">
-      <div>
-        <img class="galleryImage" src="~/assets/JuanaPolice2.jpg">
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/EGMSoZ6yvv4?&showinfo=0&rel=0" width="100%" height="auto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
       </div>
-      <div>
-        <img class="galleryImage" src="~/assets/JuanaDemo.jpg">
+
+      <div id="containerProfile">
+        <img src="~/assets/JuanaMountainCubeRight.png" class="profile">
       </div>
-      <div>
-        <img class="galleryImage" src="~/assets/JuanaWounded2.jpg">
+
+      <p style="margin-top:3em;">
+        <b>Juana Calfunao Paillalef</b> verklagt den chilenischen Staat vor dem lateinamerikanischen Gerichtshof für die Anerkennung der Menschenrechtsverletzungen gegenüber der Mapuche. Sie und ihre Familie haben wegen ihrer Rolle als Aktivistin und Lonco gewaltige Repressionen vom chilenischen Staat erfahren. Sie wurde ohne Prozess inhaftiert, gefoltert, ihr Haus wurde zwei Mal niedergebrannt und vieles mehr. Sie konnte an den Prozesstagen im Februar nicht anwesend sein, da sie nicht die Mittel für die Reisekosten aufbringen konnte. Daraufhin wurde ihr die Immunität temporär abgesprochen und somit befindet sie sich derzeit in großer Gefahr!
+      </p>
+
+      <div class="galleryContainer">
+        <div>
+          <img class="galleryImage" src="~/assets/JuanaPolice2.jpg">
+        </div>
+        <div>
+          <img class="galleryImage" src="~/assets/JuanaDemo.jpg">
+        </div>
+        <div>
+          <img class="galleryImage" src="~/assets/JuanaWounded2.jpg">
+        </div>
       </div>
-    </div>
 
-    <p style="margin-top:1em;">
-      Wir vereinen uns gegen die Repressionen an eine Mapuche Community! Einen Staat vor dem Interamerikanischen Gerichtshof wegen Menschrenrechtsverbrechen zu verklagen ist sehr teuer! Wir unterstützen mit der Soliparty Reise- und Gerichtskosten.
-      Lasst uns gemeinsam laut werden und tanzen für <b>GERECHTIGKEIT</b>, gegen Repressionen und für eine <b>OFFENE WELT</b>! Kommt zahlreich und bringt Freund*innen, Familie und/oder wen ihr sonst so mögt mit.
-    </p>
-    <p style="margin-top:1em;">
-      Einen Überblick über den Mapuche Konflikt findet ihr <a @click="openWebsiteNewTab('https://berkleycenter.georgetown.edu/posts/the-mapuche-conflict')">HIER</a>
-    </p>
+      <p style="margin-top:1em;">
+        Wir vereinen uns gegen die Repressionen an einer Mapuche Community! Einen Staat vor dem Interamerikanischen Gerichtshof wegen Menschrenrechtsverbrechen zu verklagen ist sehr teuer! Wir unterstützen mit der Soliparty Reise- und Gerichtskosten.
+        Lasst uns gemeinsam laut werden und tanzen für <b>GERECHTIGKEIT</b>, gegen Repressionen und für eine <b>OFFENE WELT</b>! Kommt zahlreich und bringt Freund*innen, Familie und/oder wen ihr sonst so mögt mit.
+      </p>
+      <p style="margin-top:1em;">
+        Einen Überblick über den Mapuche Konflikt findet ihr <a @click="openWebsiteNewTab('https://berkleycenter.georgetown.edu/posts/the-mapuche-conflict')">HIER</a>
+      </p>
 
-    <p style="margin-top:2em;"><b>
-      Partyfacts: 2 Floors // Cocktail Bar // Empanadas
-    </b></p>
+      <p style="margin-top:2em;"><b>
+        Partyfacts: 2 Floors // Cocktail Bar // Empanadas
+      </b></p>
 
-    <img src="~/assets/soli-djanes.png" class="footerPic">
+      <img src="~/assets/soli-djanes.png" class="footerPic">
 
 
-    <section class="info">
-      <div class="infoBox">
+      <section class="info">
+        <div class="infoBox">
 
-      </div>
-      <div class="infoBox">
+        </div>
+        <div class="infoBox">
 
-      </div>
-      <div class="infoBox">
+        </div>
+        <div class="infoBox">
 
-      </div>
+        </div>
+      </section>
     </section>
 
   </section>
@@ -82,6 +84,7 @@ p {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .galleryImage {
@@ -131,7 +134,6 @@ p {
   border-radius: 50%;
 }
 
-
 .pageWrapper {
   padding: 3em;
   min-height: 100vh;
@@ -165,6 +167,51 @@ p {
   transform: scale(1.7);
   transform-origin: 50% 50%;
 }
+@media screen and (min-width: 1600px) {
 
+}
+@media screen and (max-width: 880px) {
+  .headerPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    width: 20em;
+  }
+  .galleryContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .galleryImage {
+    display: flex;
+    padding-top: 1em;
+    width: 100%;
+    height: 100%;
+  }
+  .profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    width: 25em;
+    border-radius: 50%;
+  }
+  .footerPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .pageWrapper {
+    padding: 2em;
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+  }
+}
 
 </style>

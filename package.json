@@ -4,6 +4,12 @@
   "description": "For instance this is a landingpage for the mapuche community/organization",
   "author": "genratio",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "localhost",
+      "port": 3000
+    }
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
