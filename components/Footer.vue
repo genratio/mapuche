@@ -75,7 +75,7 @@ export default {
     margin-right: auto;
     padding-top: 2em;
     padding-bottom: 2em;
-    width: 50%;
+    width: 90%;
     max-height: 100%;
   }
 }
