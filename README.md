@@ -1,6 +1,7 @@
 # mapuche
 
-> My rad Nuxt.js project
+> On this page we want to inform about the mapuche community in Southern Chile and upcoming events related to that.
+  If you want to create your own, feel free to clone and fill with your content!
 
 ## Build Setup
 
@@ -19,4 +20,5 @@ $ npm start
 $ npm run generate
 ```
 
+We are happy to use Nuxt js in this project. It's an extended VUE Framework, that's really powerful.
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
