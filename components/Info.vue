@@ -109,7 +109,7 @@ p {
   margin-right: auto;
   margin-top: 3em;
   margin-bottom: 1em;
-  width: 30em;
+  width: 40%;
   border-radius: 50%;
 }
 

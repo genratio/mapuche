@@ -28,9 +28,9 @@ export default {
 .solipartyMapuche {
   position: absolute;
   left: 50%;
-  margin-left: -17.5em;
+  margin-left: -30%;
   margin-top: 2em;
-  width: 35em;
+  width: 60%;
 }
 
 .cover {
@@ -70,9 +70,9 @@ export default {
   .solipartyMapuche {
     position: absolute;
     left: 50%;
-    margin-left: -30%;
+    margin-left: -45%;
     margin-top: 2em;
-    width: 60%;
+    width: 90%;
   }
 }
 

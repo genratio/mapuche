@@ -3,11 +3,12 @@
     <div class="wrapperCover">
 
       <div>
-        <img class="djListe" src="~/assets/DJ_Liste_st.png">
-      </div>
-      
-      <div>
-        <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Soli_background.png`) + ')' }"></div>
+        <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Soli_background.png`) + ')' }">
+          <div>
+            <img class="djListe" src="~/assets/DJ_Liste_st.png">
+          </div>
+        </div>
+
       </div>
 
     </div>
@@ -25,11 +26,13 @@ export default {
 <style>
 
 .djListe {
-  position: absolute;
-  left: 50%;
-  margin-left: -22.5em;
-  margin-top: 2em;
-  width: 45em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 50%;
+  max-height: 100%;
 }
 
 .cover {
@@ -67,11 +70,13 @@ export default {
     background-position: center top;
   }
   .djListe {
-    position: absolute;
-    left: 50%;
-    margin-left: -35%;
-    margin-top: 4em;
-    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 50%;
+    max-height: 100%;
   }
 }
 
