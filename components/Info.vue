@@ -178,7 +178,7 @@ p {
     margin-right: auto;
     margin-top: 3em;
     margin-bottom: 1em;
-    width: 20em;
+    width: 90%;
     border-radius: 50%;
   }
   .footerPic {
