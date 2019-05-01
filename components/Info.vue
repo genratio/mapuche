@@ -79,7 +79,7 @@ p {
   margin-right: auto;
   margin-top: 3em;
   margin-bottom: 1em;
-  height: 60vh;
+  width: 30vw;
   border-radius: 50%;
 }
 .headerPic {
@@ -176,7 +176,7 @@ p {
     margin-right: auto;
     margin-top: 3em;
     margin-bottom: 1em;
-    height: 60vh;
+    width: 90vh;
     border-radius: 50%;
   }
   .headerPic {
