@@ -5,10 +5,6 @@
       <h2>Für <b>Juana Calfunao Paillalef</b> - Sie ist Lonco (Oberhaupt) einer Mapuche Community in Südchile.</h2>
       <h2 class="subHeadingInfobox">In diesem Video erzählt sie ihre Geschichte:</h2>
 
-      <!--<p style="margin-top:1em;">
-        Hier bekommt ihr einen Eindruck um wen es geht:
-      </p>-->
-
       <div class="video-container">
         <iframe src="https://www.youtube.com/embed/EGMSoZ6yvv4?&showinfo=0&rel=0" width="100%" height="auto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
       </div>
@@ -17,8 +13,11 @@
         <img src="~/assets/JuanaMountainCubeRight.png" class="profile">
       </div>
 
-      <p style="margin-top:3em;">
+      <p style="margin-top:2em;">
         <b>Juana Calfunao Paillalef</b> verklagt den chilenischen Staat vor dem lateinamerikanischen Gerichtshof für die Anerkennung der Menschenrechtsverletzungen gegenüber der Mapuche. Sie und ihre Familie haben wegen ihrer Rolle als Aktivistin und Lonco gewaltige Repressionen vom chilenischen Staat erfahren. Sie wurde ohne Prozess inhaftiert, gefoltert, ihr Haus wurde zwei Mal niedergebrannt und vieles mehr. Sie konnte an den Prozesstagen im Februar nicht anwesend sein, da sie nicht die Mittel für die Reisekosten aufbringen konnte. Daraufhin wurde ihr die Immunität temporär abgesprochen und somit befindet sie sich derzeit in großer Gefahr!
+      </p>
+      <p style="margin-bottom:2em;">
+        Einen Überblick über den Mapuche Konflikt findet ihr <a @click="openWebsiteNewTab('https://berkleycenter.georgetown.edu/posts/the-mapuche-conflict')">HIER</a>
       </p>
 
       <div class="galleryContainer">
@@ -37,9 +36,7 @@
         Wir vereinen uns gegen die Repressionen an einer Mapuche Community! Einen Staat vor dem Interamerikanischen Gerichtshof wegen Menschrenrechtsverbrechen zu verklagen ist sehr teuer! Wir unterstützen mit der Soliparty Reise- und Gerichtskosten.
         Lasst uns gemeinsam laut werden und tanzen für <b>GERECHTIGKEIT</b>, gegen Repressionen und für eine <b>OFFENE WELT</b>! Kommt zahlreich und bringt Freund*innen, Familie und/oder wen ihr sonst so mögt mit.
       </p>
-      <p style="margin-top:1em;">
-        Einen Überblick über den Mapuche Konflikt findet ihr <a @click="openWebsiteNewTab('https://berkleycenter.georgetown.edu/posts/the-mapuche-conflict')">HIER</a>
-      </p>
+
 
     </section>
 
@@ -75,7 +72,7 @@ p {
 }
 .video-container {
   position: relative;
-  padding-bottom: 54%;
+  padding-bottom: 53%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
@@ -153,12 +150,12 @@ p {
 
 }
 @media screen and (max-width: 880px) {
-  .headerPic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3em;
-    width: 20em;
+  .video-container {
+    position: relative;
+    padding-bottom: 51%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
   }
   .galleryContainer {
     display: flex;
@@ -180,6 +177,13 @@ p {
     margin-bottom: 1em;
     width: 90%;
     border-radius: 50%;
+  }
+  .headerPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    width: 80%;
   }
   .footerPic {
     display: block;

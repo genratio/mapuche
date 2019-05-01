@@ -2,14 +2,10 @@
   <section>
     <div class="wrapperCover">
 
-
-
       <div>
         <img class="djListe" src="~/assets/DJ_Liste_st.png">
       </div>
-
-
-
+      
       <div>
         <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Soli_background.png`) + ')' }"></div>
       </div>

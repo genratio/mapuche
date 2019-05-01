@@ -70,9 +70,9 @@ export default {
   .solipartyMapuche {
     position: absolute;
     left: 50%;
-    margin-left: -12.5em;
+    margin-left: -30%;
     margin-top: 2em;
-    width: 25em;
+    width: 60%;
   }
 }
 
