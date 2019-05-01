@@ -176,7 +176,7 @@ p {
     margin-right: auto;
     margin-top: 3em;
     margin-bottom: 1em;
-    width: 90vh;
+    width: 80vw;
     border-radius: 50%;
   }
   .headerPic {
