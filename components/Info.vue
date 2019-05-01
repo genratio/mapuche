@@ -61,14 +61,17 @@ p {
 }
 .galleryContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
 }
 
 .galleryImage {
   display: flex;
-  height: 25em;
+  padding-top: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  height: 50vh;
 }
 .video-container {
   position: relative;
