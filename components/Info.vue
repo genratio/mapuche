@@ -73,6 +73,30 @@ p {
   padding-right: 0.5em;
   height: 50vh;
 }
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  height: 60vh;
+  border-radius: 50%;
+}
+.headerPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  width: 40em;
+}
+
+.footerPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 53%;
@@ -91,31 +115,6 @@ p {
   height: 100%;
 }
 
-.headerPic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3em;
-  width: 40em;
-}
-
-.footerPic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-.profile {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
-  margin-bottom: 1em;
-  width: 40%;
-  border-radius: 50%;
-}
-
 .pageWrapper {
   padding: 3em;
   min-height: 100vh;
@@ -128,7 +127,6 @@ p {
   justify-content: space-between;
   background-color: white;
 }
-
 .infoBox {
   width: 35em;
 }
