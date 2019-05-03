@@ -201,4 +201,15 @@ p {
   }
 }
 
+/* If height very low */
+@media screen and (max-height: 300px) {
+  .galleryImage {
+    display: flex;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    height: 15em;
+  }
+}
+
 </style>

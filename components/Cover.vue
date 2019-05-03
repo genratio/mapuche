@@ -3,11 +3,9 @@
     <div class="wrapperCover">
 
       <div>
-        <img class="solipartyMapuche" src="~/assets/soliparty-logo1.png">
-      </div>
-
-      <div>
-        <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Mapuche_Webisite_Header_1080p.png`) + ')' }"></div>
+        <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Mapuche_Webisite_Header_1080p.png`) + ')' }">
+          <img class="djListe" src="~/assets/soliparty-logo1.png">
+        </div>
       </div>
 
     </div>
@@ -20,17 +18,18 @@ export default {
 
 }
 
-
 </script>
 
 <style>
 
-.solipartyMapuche {
-  position: absolute;
-  left: 50%;
-  margin-left: -30%;
-  margin-top: 2em;
-  width: 60%;
+.djListe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 50%;
+  max-height: 100%;
 }
 
 .cover {
@@ -67,12 +66,26 @@ export default {
     background-size: cover;
     background-position: center top;
   }
-  .solipartyMapuche {
+  .solipartyMapucheText {
     position: absolute;
     left: 50%;
+    padding-top: 2em;
+    padding-bottom: 2em;
     margin-left: -45%;
     margin-top: 2em;
     width: 90%;
+  }
+}
+/* If height very low */
+@media screen and (max-height: 500px) {
+  .solipartyMapucheText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 90%;
+    max-height: 100%;
   }
 }
 

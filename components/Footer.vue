@@ -4,11 +4,8 @@
 
       <div>
         <div class="cover" :style="{ backgroundImage: 'url(' + require(`@/assets/Soli_background.png`) + ')' }">
-          <div>
-            <img class="djListe" src="~/assets/DJ_Liste_st.png">
-          </div>
+          <img class="djListe" src="~/assets/DJ_Liste_st.png">
         </div>
-
       </div>
 
     </div>
