@@ -3,6 +3,7 @@
     <section class="pageInnerWrapper">
       <img src="~/assets/soliankündigung.png" class="headerPic">
       <h2>Für <b>Juana Calfunao Paillalef</b> - Sie ist Lonco (Oberhaupt) einer Mapuche Community in Südchile.</h2>
+
       <h2 class="subHeadingInfobox">In diesem Video erzählt sie ihre Geschichte:</h2>
 
       <div class="video-container">
@@ -32,11 +33,16 @@
         </div>
       </div>
 
-      <p style="margin-top:1em;">
-        Wir vereinen uns gegen die Repressionen an einer Mapuche Community! Einen Staat vor dem Interamerikanischen Gerichtshof wegen Menschrenrechtsverbrechen zu verklagen ist sehr teuer! Wir unterstützen mit der Soliparty Reise- und Gerichtskosten.
-        Lasst uns gemeinsam laut werden und tanzen für <b>GERECHTIGKEIT</b>, gegen Repressionen und für eine <b>OFFENE WELT</b>! Kommt zahlreich und bringt Freund*innen, Familie und/oder wen ihr sonst so mögt mit.
-      </p>
+      <h2 class="subHeadingInfobox" style="margin-top:2em;"><b>Follow-Up Informationen</b> - zur Soliparty und wie es jetzt weitergeht:</h2>
 
+      <p>
+        Liebe Besucher*Innen,
+        vielen Dank für die tolle Party! Wir hatten auch großen Spaß und können erfreut bekanntgeben, dass die Reisekosten für die laufenden Prozesstage von den Einnahmen der Party gedeckt werden konnten. Wir sind grade noch mit der Kostenaufstellung beschäftigt und werden hier ganz bald veröffentlichen, wie viel wir eingesammelt haben und was wir nach Chile schicken können.
+
+        <b>Vielen, vielen Dank für eure Spenden!</b>
+
+        Euer Orga-Team
+      </p>
 
     </section>
 
